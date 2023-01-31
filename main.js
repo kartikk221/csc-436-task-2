@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import {eventHandler} from './utils/event';
+import { eventHandler } from './utils/event';
 
 document.querySelector('#app').innerHTML = `
 <div class="container my-5">
@@ -13,10 +13,11 @@ document.querySelector('#app').innerHTML = `
 </div>
 
 <button id="add" class="btn btn-primary mb-3">Add</button>
+<button id="multiply" class="btn btn-primary mb-3">Multiply</button>
 <div class="mt-5 rounded border p-5 bg-secondary text-white">
-      Result: <div id="result">
+      <div id="result-type"></div> <div id="result">
 </div>
 </div>
 `;
+
 eventHandler();
-// https://csc436.matgargano.com/duck
